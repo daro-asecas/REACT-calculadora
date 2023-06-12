@@ -138,9 +138,9 @@ export default function App() {
             </tr>
 
             <tr>
+                <Button display="4" color="blue" callback={write} />
                 <Button display="5" color="blue" callback={write} />
                 <Button display="6" color="blue" callback={write} />
-                <Button display="4" color="blue" callback={write} />
 
                 <Button display="X" color="green" callback={operateOnAns} />
                 <Button display="/" color="green" callback={operateOnAns} />
