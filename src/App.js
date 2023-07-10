@@ -77,26 +77,9 @@ export default function App() {
         console.log("memoryRegister = ",memoryRegister);
     }
 
-    function memoryAdd(memoryRegister) {
-        setMemoryRegister(memoryRegister+resultMemory);
-        console.log("memoryRegister = ",memoryRegister);
-    }
-
-    function memorySubstract(memoryRegister) {
-        setMemoryRegister(memoryRegister-resultMemory);
-        console.log("memoryRegister = ",memoryRegister);
-    }
-
     function memoryWrite() {
         setWrittingSlot(`${writtingSlot}M`);
     }
-
-
-{/* 
-    BOTONES QUE NO USO
-        <ButtonOperator operator="!" writtingSlot="n!" callback={write} />
-        <Button display="sqrt" write="sqrt(" color="gray" callback={write} />
-*/}
 
   return (
     <>
